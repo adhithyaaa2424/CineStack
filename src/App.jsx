@@ -1,9 +1,10 @@
-import Layout from './components/layout/Layout.jsx'
+// import Layout from './components/layout/Layout.jsx'
+import AppRoutes from './routes/AppRoutes.jsx';
 
 function App(){
   return (
-  <div className="flex justify-center items-center h-screen">
-     <Layout/>
+  <div className="">
+     <AppRoutes/>
   </div>
   )
 }
