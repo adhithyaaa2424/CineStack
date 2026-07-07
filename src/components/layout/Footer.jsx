@@ -3,7 +3,7 @@
 function Footer(){
     return (
         <div>
-            <p>Inside Footer</p>
+            <p> Footer</p>
         </div>
     )
 }

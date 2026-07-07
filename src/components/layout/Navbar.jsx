@@ -4,7 +4,7 @@ function Navbar(){
 
     return (
         <div>
-            <p>Inside Navbar</p>
+            <p> Navbar</p>
         </div>
     )
 
