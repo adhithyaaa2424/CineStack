@@ -3,15 +3,20 @@ import MovieSection from "../components/home/MovieSection";
 
 
 function Home(){
+    const title = ['Trending Movies','Popular Movies','Top Rated Movies','Web Series','Horror Movies']
     return (
     <div>
         <HeroBanner/>
 
-        <MovieSection  title="Trending Movies"/>
-        <MovieSection title="Popular Movies"/>
-        <MovieSection title="Top Rated Movies"/>
-        <MovieSection title="Web Series"/>
-        <MovieSection title="Horror Movies"/>
+         {
+            title.map((item)=>(
+                <MovieSection 
+                key={item}
+                title={item}
+                />
+            ))
+         }
+        
     </div>
     )
 }
